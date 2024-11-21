@@ -18,21 +18,6 @@ Java Swing: Used for building the GUI, including buttons, labels, and radio butt
 AWT: Utilized for handling custom graphics (e.g., timer countdown).
 Git: Version control for code management.
 
-# Folder Structure
-QuizApp
-│
-├── .idea               # IntelliJ IDEA project files (configuration, metadata)
-├── out                 # Compiled .class files (output directory)
-├── src                 # Source directory for Java files and assets
-│   ├── icons           # Folder containing image assets for UI
-│   ├── quiz\app        # Main package containing Java files
-│   │   ├── Login.java  # Handles user login and name input
-│   │   ├── Quiz.java   # Core quiz functionality: questions, timers, navigation
-│   │   ├── Score.java  # Displays final score and restart options
-│   │   ├── Rules.java  # Displays quiz rules and starts the quiz
-│   ├── .gitignore      # Specifies files to exclude from version control
-│   └── QuizApp.iml     # IntelliJ IDEA module file
-
 # Setup Instructions
 Clone the repository to your local machine:
 git clone https://github.com/yourusername/QuizApp.git
